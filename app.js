@@ -14,6 +14,10 @@ app.get("/media", function(req, res) {
     res.render("media.ejs");
 });
 
+app.get("/shop", function(req, res) {
+    res.render("shop.ejs");
+});
+
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Backroute Server has Started");
 });
