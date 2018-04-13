@@ -1,0 +1,20 @@
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    background-image: url("https://i.imgur.com/nODcwpd.png");
+    background-position: center;
+}
+
+.jumbotron {
+    padding: 2em 2em;
+}
+
+#socialmedia a {
+    color: #428bca;
+    font-size: 40px;
+    padding: 2%;
+    text-decoration: none;
+}
+
+@-ms-viewport {
+    width: auto;
+}
