@@ -48,6 +48,9 @@ h1 {
     width: auto;
 }
 
+@media (min-width: 600px) {}
+
+
 #hireme {
     text-decoration: none;
     color: white;
