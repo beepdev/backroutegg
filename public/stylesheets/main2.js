@@ -1,29 +1,26 @@
 // 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// var tag = document.createElement('script');
+// tag.src = "https://www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName('script')[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-var player;
+// var player;
 
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-        height: '360',
-        width: '640',
-        videoId: 'UZis6CR6Al8',
-        events: {
-            'onReady': onPlayerReady
-        }
-    });
-}
+// function onYouTubeIframeAPIReady() {
+//     player = new YT.Player('player', {
+//         height: '360',
+//         width: '640',
+//         videoId: 'U9Jr5LPLQNc',
+//         events: {
+//             'onReady': onPlayerReady
+//         }
+//     });
+// }
 
-function onPlayerReady(event) {
-    event.target.setVolume(0);
-    event.target.playVideo();
-}
-
-// PayPal Checkout Script
-
+// function onPlayerReady(event) {
+//     event.target.setVolume(0);
+//     event.target.playVideo();
+// }
 
 
 //         Facebook javascript
