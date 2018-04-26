@@ -4,6 +4,9 @@ body {
     background-position: center;
     background-color: #000000;
     padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .flex {
@@ -22,6 +25,7 @@ h4,
 p,
 h1 {
     color: white;
+    text-decoration: none;
 }
 
 #link:hover {
@@ -333,4 +337,21 @@ body {
 
 .product-grid__view:hover {
     background: white;
+}
+
+/*IMG ZOOM*/
+
+#zoom {
+    transition: transform .2s;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+}
+
+#zoom:hover {
+    -ms-transform: scale(2);
+    /* IE 9 */
+    -webkit-transform: scale(2);
+    /* Safari 3-8 */
+    transform: scale(2);
 }
