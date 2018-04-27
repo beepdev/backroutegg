@@ -1,6 +1,6 @@
 body {
-    font-family: 'Do Hyeon', sans-serif;
-    /*background-image: url("https://i.imgur.com/nODcwpd.png");*/
+    /*font-family: 'Do Hyeon', sans-serif;*/
+    font-family: 'Nunito Sans', sans-serif;
     background-position: center;
     background-color: #000000;
     padding-top: 70px;
@@ -54,7 +54,7 @@ h1 {
 #email,
 #facebook {
     color: #428bca;
-    font-size: 40px;
+    font-size: 30px;
     padding: 2%;
     text-decoration: none;
 }
