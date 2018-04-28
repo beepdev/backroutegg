@@ -1,3 +1,5 @@
+// YOUTUBE API
+
 // 2. This code loads the IFrame Player API code asynchronously.
 // var tag = document.createElement('script');
 // tag.src = "https://www.youtube.com/iframe_api";
@@ -24,6 +26,7 @@
 
 
 //         Facebook javascript
+
 //         <div id="fb-root"></div>
 // <script>(function(d, s, id) {
 //   var js, fjs = d.getElementsByTagName(s)[0];
