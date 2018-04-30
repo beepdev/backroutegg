@@ -19,16 +19,16 @@ body {
     margin-top: 30px;
 }
 
+.card-img-top {
+    max-height: 253.167px;
+}
+
 #link,
 h4,
 p,
 h1 {
     color: white;
     text-decoration: none;
-}
-
-#store {
-    color: #000000;
 }
 
 #link:hover {
