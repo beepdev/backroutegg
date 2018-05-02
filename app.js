@@ -6,11 +6,11 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function(req, res) {
-    res.render("landing2.ejs");
+    res.render("landing.ejs");
 });
 
 app.get("/media", function(req, res) {
-    res.render("media2.ejs");
+    res.render("media.ejs");
 });
 
 app.get("/shop", function(req, res) {

@@ -14,8 +14,8 @@ body {
 }
 
 #shop {
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 
@@ -58,11 +58,6 @@ h1 {
     text-decoration: none;
 }
 
-@-ms-viewport {
-    width: auto;
-}
-
-
 #hireme {
     text-decoration: none;
     color: white;
@@ -96,6 +91,10 @@ h1 {
     }
 }
 
+@-ms-viewport {
+    width: auto;
+}
+
 .card {
     height: 100%;
 }
@@ -104,16 +103,12 @@ h1 {
 
 #zoom {
     transition: transform .2s;
-    max-width: 520px;
-    max-height: 520px;
-    margin: 10px;
-    padding-bottom: 40px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #zoom:hover {
     -ms-transform: scale(1.5);
-    /*IE 9 */
     -webkit-transform: scale(1.5);
-    /*Safari 3-8 */
     transform: scale(1.5);
 }
